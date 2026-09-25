@@ -1,0 +1,6 @@
+model,auc,gini,ks,brier,mean_pd,actual_bad_rate,trees
+LendingClub sub-grade (benchmark),0.6785,0.357,0.2617,0.1212,0.1285,0.149,
+Logistic scorecard [bureau+app],0.6935,0.387,0.2823,0.1198,0.1301,0.149,
+XGBoost [bureau+app],0.6936,0.3873,0.2823,0.1194,0.1341,0.149,1184.0
+Logistic scorecard [bureau+app+LC pricing],0.6972,0.3945,0.2881,0.1192,0.1342,0.149,
+XGBoost [bureau+app+LC pricing],0.7029,0.4057,0.2963,0.1188,0.1293,0.149,697.0

@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.DS_Store
+.Rhistory
+*.xlsx#
+~$*
+
+# raw and intermediate data: re-download with the steps in each project README
+01-credit-risk/data/
+02-sofi-forecast/data/*
+!02-sofi-forecast/data/release_facts.csv
+!02-sofi-forecast/data/driver_panel.csv

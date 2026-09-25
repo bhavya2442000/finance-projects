@@ -1,0 +1,9 @@
+pandas
+numpy
+scikit-learn
+statsmodels
+matplotlib
+openpyxl
+lxml
+beautifulsoup4
+html5lib
