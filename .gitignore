@@ -10,3 +10,18 @@ __pycache__/
 02-sofi-forecast/data/*
 !02-sofi-forecast/data/release_facts.csv
 !02-sofi-forecast/data/driver_panel.csv
+
+# secrets (never commit)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+id_rsa*
+credentials.json
+client_secret*.json
+service-account*.json
+token.json
+secrets.toml
+.streamlit/secrets.toml
